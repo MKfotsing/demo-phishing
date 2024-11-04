@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Banque Exemple</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+        h1 { color: #333; }
+        form { background: white; padding: 20px; border-radius: 5px; }
+        input { margin: 10px 0; padding: 10px; width: 100%; }
+        button { padding: 10px; background: #007bff; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur Banque Exemple</h1>
+    <form>
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Se connecter</button>
+    </form>
+    <p style="color: red;">Alerte : Votre compte a été compromis. Veuillez vous connecter immédiatement.</p>
+</body>
+</html>
